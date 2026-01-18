@@ -1,3 +1,7 @@
+telethon
+datetime
+os
+asyncio
 # Telegram Multi Channel Copier
 
 A small Python script that watches multiple Telegram channels and copies every new message as plain text into another group or channel.  
@@ -27,8 +31,8 @@ pip install -r req.txt
 Open `multi_channel_copier.py` and fill in:
 API_ID = 123456
 API_HASH = "your_api_hash_here"
-SOURCE_CHANNELS = ["@example1", -1009876543210]
-DESTINATION_CHAT = -1001234567890
+SOURCE_CHANNELS = ["@example1", -10001000000]
+DESTINATION_CHAT = -10001000000
 
 4. **Run the bot**
 python main.py
