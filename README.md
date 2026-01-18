@@ -16,15 +16,15 @@ It uses your Telegram account via **Telethon** and keeps message logs for backup
 ### Setup (Windows)
 
 1. **Download or clone this repo**
-git clone https://github.com/<your-username>/telegram-multi-channel-copier.git
-cd telegram-multi-channel-copier
+git clone https://github.com/litnlS/Telegram-Chat-Group-Logger.git
+cd Telegram-Chat-Group-Logger
 
 
 2. **Install dependencies**
 pip install -r pyreq.txt
 
 3. **Edit your details**
-Open `multi_channel_copier.py` and fill in:
+Open `main.py.py` and fill in:
 API_ID = 123456
 API_HASH = "your_api_hash_here"
 SOURCE_CHANNELS = ["@example1", -10001000000]
