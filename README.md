@@ -21,14 +21,14 @@ cd telegram-multi-channel-copier
 
 
 2. **Install dependencies**
-pip install -r req.txt
+pip install -r pyreq.txt
 
 3. **Edit your details**
 Open `multi_channel_copier.py` and fill in:
 API_ID = 123456
 API_HASH = "your_api_hash_here"
-SOURCE_CHANNELS = ["@example1", -1009876543210]
-DESTINATION_CHAT = -1001234567890
+SOURCE_CHANNELS = ["@example1", -10001000000]
+DESTINATION_CHAT = -10001000000
 
 4. **Run the bot**
 python main.py
